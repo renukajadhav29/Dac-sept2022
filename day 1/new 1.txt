@@ -1,0 +1,19 @@
+while [ input != "end" ] ; do
+
+read input
+echo "$input" >> inputf
+
+done
+
+cat inputf
+
+
+
+country="Portugal"
+lastThree=${country: -3}
+
+echo $lastThree
+
+country="inputf"
+lastthree=${country: -20}
+echo lastthree
